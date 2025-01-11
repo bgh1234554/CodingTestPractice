@@ -24,7 +24,7 @@ public class BaekJoon1940 {
         while(end<start){
             sum=arr[start]+arr[end];
             if(sum==M){
-                cnt++; end++;
+                cnt++; start--; end++;//맞힌 후 수정, end++올려도 start값이 그대로라 어차피 ==M일리 없으니 바로 start--
             }
             else if(sum<M){
                 end++;
