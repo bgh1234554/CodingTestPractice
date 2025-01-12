@@ -1,3 +1,5 @@
+package Etc;
+
 import java.util.Scanner;
 
 public class BaekJoon2941 {
@@ -50,5 +52,6 @@ public class BaekJoon2941 {
             }
         }
         System.out.println(cnt);
+        //아니면 String의 replace함수를 이용해서 여러 글자를 하나로 바꿔도 된다.
     }
 }
