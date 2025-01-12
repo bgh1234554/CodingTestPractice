@@ -56,7 +56,7 @@ public class Remember {
         ArrayList<Integer> arrlist = new ArrayList<>(Arrays.asList(12,3,4));
         //안됨 ArrayList<Integer> arrlist2 = List.of(1,2,34,5);
         //int[]를 List<Integer>로. 컬렉션으로 바꿔야하니 collect를 쓴다로 기억하자.
-        List<Integer> intList = Arrays.stream(arr).boxed().distinct().collect(Collectors.toList());
+        List<Integer> intList = Arrays.stream(arr).boxed()/*.distinct()*/.collect(Collectors.toList());
 
         //List 깊은 복사
         ArrayList<Integer> list1 = new ArrayList<>();
