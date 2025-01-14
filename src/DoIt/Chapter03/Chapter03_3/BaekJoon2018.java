@@ -1,4 +1,4 @@
-package DoIt.Chapter03_3;
+package DoIt.Chapter03.Chapter03_3;
 
 import java.util.Scanner;
 

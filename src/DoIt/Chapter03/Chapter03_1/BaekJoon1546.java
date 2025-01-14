@@ -1,4 +1,4 @@
-package DoIt.Chapter03_1;
+package DoIt.Chapter03.Chapter03_1;
 
 import java.io.*;
 import java.util.*;

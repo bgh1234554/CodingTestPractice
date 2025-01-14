@@ -1,4 +1,4 @@
-package DoIt.Chapter03_5;
+package DoIt.Chapter03.Chapter03_5;
 
 import java.util.PriorityQueue;
 import java.util.Scanner;

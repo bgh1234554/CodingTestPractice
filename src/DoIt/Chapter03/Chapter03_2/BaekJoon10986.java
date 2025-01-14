@@ -1,4 +1,4 @@
-package DoIt.Chapter03_2;
+package DoIt.Chapter03.Chapter03_2;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
