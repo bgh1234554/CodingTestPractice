@@ -1,6 +1,6 @@
 # 알고리즘, 코딩 연습
 ![Language](https://img.shields.io/badge/language-Java-blue)
-![License](https://img.shields.io/badge/license-MIT-brightgreen)
+![License](https://img.shields.io/github/license/bgh1234554/CodingTestPractice)
 ![Last Commit](https://img.shields.io/github/last-commit/bgh1234554/CodingTestPractice)
 
 하단의 자료에 있는 다양한 문제들을 풀고, 주석으로 내 풀이를 달아서 깃허브에 올린다.\
