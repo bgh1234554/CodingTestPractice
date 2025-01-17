@@ -92,5 +92,7 @@ public class Remember {
         //변수 이름 한번에 바꾸기: Shift F6
         //변수 이름 만들어주기: Ctrl Alt V
         //리팩터링 - Ctrl Alt Shift T
+        //https://velog.io/@iui9686/Intellij#-%EC%A3%BC%EC%9A%94-%EB%8B%A8%EC%B6%95%ED%82%A4
+        //sout 하면 바로 println 출력된다.
     }
 }
