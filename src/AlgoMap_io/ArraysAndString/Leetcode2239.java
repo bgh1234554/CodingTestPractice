@@ -1,4 +1,4 @@
-package AlgoNap_io.ArraysAndString;
+package AlgoMap_io.ArraysAndString;
 
 /*
 Given an integer array nums of size n, return the number with the value closest to 0 in nums.

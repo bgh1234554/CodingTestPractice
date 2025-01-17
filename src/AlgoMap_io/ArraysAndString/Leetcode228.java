@@ -1,4 +1,4 @@
-package AlgoNap_io.ArraysAndString;
+package AlgoMap_io.ArraysAndString;
 
 import java.util.ArrayList;
 import java.util.List;

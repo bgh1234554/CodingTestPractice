@@ -1,4 +1,4 @@
-package AlgoNap_io.ArraysAndString;
+package AlgoMap_io.ArraysAndString;
 /*
 You are given an integer array prices
 where prices[i] is the price of a given stock on the ith day.

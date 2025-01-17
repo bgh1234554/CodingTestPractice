@@ -1,4 +1,4 @@
-package AlgoNap_io.ArraysAndString;
+package AlgoMap_io.ArraysAndString;
 
 public class Leetcode80 {
     public static void main(String[] args) {

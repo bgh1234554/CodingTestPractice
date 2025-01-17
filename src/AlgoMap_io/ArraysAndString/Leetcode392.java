@@ -1,4 +1,4 @@
-package AlgoNap_io.ArraysAndString;
+package AlgoMap_io.ArraysAndString;
 
 /*
 A subsequence of a string is a new string that is formed from the original string by deleting some (can be none)

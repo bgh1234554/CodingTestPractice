@@ -1,4 +1,4 @@
-package AlgoNap_io.ArraysAndString;
+package AlgoMap_io.ArraysAndString;
 
 /*
 Write a function to find the longest common prefix string amongst an array of strings.

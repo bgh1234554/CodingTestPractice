@@ -87,5 +87,10 @@ public class Remember {
         ArrayList<Integer> intList2 = new ArrayList<>();
         intList2.add(2); intList2.add(5);
         intList2.set(0,2*intList.get(0)); //값 변경할때 이렇게 하면 됨.
+
+        //밑의 줄로 옮겨가기: Ctrl Shift Enter
+        //변수 이름 한번에 바꾸기: Shift F6
+        //변수 이름 만들어주기: Ctrl Alt V
+        //리팩터링 - Ctrl Alt Shift T
     }
 }

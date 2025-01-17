@@ -1,4 +1,4 @@
-package AlgoNap_io.ArraysAndString;
+package AlgoMap_io.ArraysAndString;
 /*
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 Roman numerals are usually written largest to smallest from left to right.
