@@ -21,6 +21,7 @@
 | 코딩 테스트 합격자 되기 - 자바 편        | 도서        | [예스24](https://www.yes24.com/Product/Goods/125183948)                                                     |
 | 자바 알고리즘 인터뷰 with 코틀린         | 도서        | [예스24](https://www.yes24.com/Product/Goods/122445610)                                                     |
 | 알고리즘 로드맵 Algomap.io               | 웹사이트    | [Algomap.io](https://algomap.io/list)                   |
+| Leetcode Patterns               | 웹사이트    | [Leetcode Patterns](https://seanprashad.com/leetcode-patterns/)                   |
 | Leetcode Top Interview Questions         | 문제 모음   | [Leetcode](https://leetcode.com/problemset/algorithms/) |
 
 ### 자료 설명
@@ -35,6 +36,9 @@
 * 알고리즘 로드맵 Algomap.io
   * [Greg Hogg](https://www.youtube.com/@GregHogg)라는 데이터 사이언스와 코딩 테스트 통과 부트캠프 운영자가 직접 만든\
   무료 코딩테스트 대비 웹사이트. 리트코드 문제가 정리되어있으며 파이썬 해설과, C, Java, JS 해설코드의 깃허브 레포도 제공한다.
+* Leetcode Patterns
+    * 바로 위 사이트와 유사하며, Medium 난이도의 문제가 더 많고, 어떤 회사에서 이 리트코드 문제를 사용했는지\
+      보여준다는 것이 차이점이다. Tip 탭에서 문제의 출발점을 잡아주는 방법을 제공한는 것은 장점이지만, 자체 해설은 제공하지 않는다.
 * Leetcode Top Interview Questions
   * 해외에서 가장 많이 쓰는 코딩 테스트 대비 웹사이트인 리트코드에서 제공하는 실제 기업들이 코테에서 물어보는 문제들.\
   Easy부터 시작하며 Hard는 진행하지 않는다. 실제 외국에서는 라이브 코딩으로 Medium정도의 문제까지만 낸다고 한다.\
