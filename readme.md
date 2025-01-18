@@ -23,6 +23,7 @@
 | 알고리즘 로드맵 Algomap.io               | 웹사이트    | [Algomap.io](https://algomap.io/list)                   |
 | Leetcode Patterns               | 웹사이트    | [Leetcode Patterns](https://seanprashad.com/leetcode-patterns/)                   |
 | Leetcode Top Interview Questions         | 문제 모음   | [Leetcode](https://leetcode.com/problemset/algorithms/) |
+| Leetcode 75 | 문제 모음 | [Leetcode 75](https://leetcode.com/studyplan/leetcode-75/) | 
 
 ### 자료 설명
  * Do it! 알고리즘 코딩 테스트 - JAVA 편
@@ -43,3 +44,5 @@
   * 해외에서 가장 많이 쓰는 코딩 테스트 대비 웹사이트인 리트코드에서 제공하는 실제 기업들이 코테에서 물어보는 문제들.\
   Easy부터 시작하며 Hard는 진행하지 않는다. 실제 외국에서는 라이브 코딩으로 Medium정도의 문제까지만 낸다고 한다.\
   꾸준히 45분 이내에 Easy난이도룰 풀때까지 위에 설명된 방법대로 Easy문제를 풀이하며, 이후 Medium으로 넘어간다.
+* Leetcode 75
+    * 리트코드에서 자체 제공하는 코딩테스트 통과 대비용 문제 모음으로, 상당히 인지도가 있는 유명한 문제들이 모여 있다.\
