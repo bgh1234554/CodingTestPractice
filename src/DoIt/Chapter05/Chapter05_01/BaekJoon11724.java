@@ -1,4 +1,4 @@
-package DoIt.Chapter05.Chapter050_1;
+package DoIt.Chapter05.Chapter05_01;
 
 import java.io.BufferedReader;
 import java.io.IOException;
