@@ -63,6 +63,7 @@ public class Remember {
         ArrayList<Integer> list1 = new ArrayList<>();
         ArrayList<Integer> list2 = new ArrayList<>(); list2.addAll(list1);
         Collections.sort(list1); //리스트 정렬
+        Collections.sort(list1, Collections.reverseOrder()); //내림차순 정렬
         //Collections에 sort, max, min있음. Collectors에는 toList()
 
         //Comparator 인터페이스 구현. C언어의 qsort 함수 구현과 비슷한 것 같다.
