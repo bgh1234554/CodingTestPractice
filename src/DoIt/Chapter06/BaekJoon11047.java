@@ -17,10 +17,11 @@ public class BaekJoon11047 {
         }
         int sum=0, count=0;
         for(int i=N-1;i>=0;i--){
-            while(sum+money[i]<=goal){
-                sum+=money[i];
-                count++;
-            }
+            //풀이 1 - while문으로 알아서 금액 채우기
+//            while(sum+money[i]<=goal){
+//                sum+=money[i];
+//                count++;
+//            }
         }
         System.out.println(count);
     }
