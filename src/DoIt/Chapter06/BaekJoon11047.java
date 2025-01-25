@@ -22,6 +22,11 @@ public class BaekJoon11047 {
 //                sum+=money[i];
 //                count++;
 //            }
+            //반복문 2중으로 돌아서 시간복잡도에 문제가 생길 수 있으니, 한번에 계산하는 방법
+            if(money[i]<=goal){
+                count+=(goal/money[i]); //몇장 추가할 지
+                goal = goal%money[i]; //(돈 단위*장수)만큼 지불하니까, 나머지가 새로운 금액이 된다.
+            }
         }
         System.out.println(count);
     }
