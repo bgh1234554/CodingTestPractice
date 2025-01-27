@@ -3,7 +3,10 @@ package AlgoMap_io.ArraysAndString;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+/*
+Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals,
+and return an array of the non-overlapping intervals that cover all the intervals in the input
+ */
 public class Leetcode56 {
     public static void main(String[] args) {
         System.out.println(Arrays.deepToString(merge(new int[][]{{1, 3}, {2, 6}, {8, 10}, {15, 18}})));
