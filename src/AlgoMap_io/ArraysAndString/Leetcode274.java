@@ -27,6 +27,7 @@ public class Leetcode274 {
         //핵심부분
         int h;
         for(h=sum.length-1;h>=0;h--){
+            //count[h]>0일 필요가 없다. 0,0,2이면 count[h]=0이어도 h값은 1이니까.
             //h개 인용된 논문수+h개 초과로 인용된 논문 수가 h보다 많아야 한다.
             //최댓값을 구해야 하니 역으로 탐색.
             if((count[h]+citations.length-sum[h])>=h){
