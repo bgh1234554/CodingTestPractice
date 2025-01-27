@@ -58,6 +58,11 @@ public class Remember {
         //안됨 ArrayList<Integer> arrlist2 = List.of(1,2,34,5);
         //int[]를 List<Integer>로. 컬렉션으로 바꿔야하니 collect를 쓴다로 기억하자.
         List<Integer> intList = Arrays.stream(arr).boxed()/*.distinct()*/.collect(Collectors.toList());
+        //List<int[]>를 int[][]로 변환
+        List<int[]> merged = new ArrayList<>();
+        int[][] mergedarr = merged.toArray(new int[merged.size()][]);
+        //List<Integer>를 int[]로 변환
+        int[] arrlist2 = arrlist.stream().mapToInt(Integer::new).toArray();
 
         //List 깊은 복사
         ArrayList<Integer> list1 = new ArrayList<>();
