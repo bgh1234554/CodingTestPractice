@@ -24,8 +24,11 @@ public class Leetcode56 {
                 merged.get(merged.size()-1)[1]=Math.max(merged.get(merged.size()-1)[1],interval[1]);
             }
         }
-        //List<int[]>를 int[][]로 바꾸는 방법.
+        //List<int[]>를 int[][]로 바꾸는 방법. 이걸 알게 된 것이 더 중요하다.
         return merged.toArray(new int[merged.size()][]);
+        //List<Integer>는 int[]로 바로 바꾸려면 stream을 사용해야 한다.
+        //int[] array = list.stream().mapToInt(Integer::intValue).toArray();
+        //Integer[] array2 = list.toArray(new Integer[크기]);
     }
 //    public static void main(String[] args) {
 //        System.out.println(Arrays.deepToString(merge(new int[][]{{1, 3}, {2, 6}, {8, 10}, {15, 18}})));

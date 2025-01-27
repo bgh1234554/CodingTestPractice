@@ -37,7 +37,7 @@ public class Remember {
         int index = Arrays.binarySearch(arr,2);
         Arrays.copyOf(arr,arr.length); //배열 복사
         Arrays.copyOfRange(arr,1,4); //from부터 to-1까지 복사.
-        //int 배열을 Integer 배열로. .stream(arr).boxed()까진 동일
+        //int[]을 Integer[]로. .stream(arr).boxed()까진 동일
         Integer[] tmp = Arrays.stream(arr).boxed()/*.distinct()*/.toArray(Integer[]::new);
         //distinct는 중복 제거시 사용할 수 있다.
         //stream으로 만들어주고, box를 씌워 wrapper 클래스로 만들고,
@@ -62,7 +62,11 @@ public class Remember {
         List<int[]> merged = new ArrayList<>();
         int[][] mergedarr = merged.toArray(new int[merged.size()][]);
         //List<Integer>를 int[]로 변환
-        int[] arrlist2 = arrlist.stream().mapToInt(Integer::new).toArray();
+        int[] arrlist2 = arrlist.stream().mapToInt(Integer::intValue).toArray();
+        //List<Integer>를 Integer[]로 변환
+        Integer[] arrlist3 = arrlist.toArray(new Integer[0]);
+        //Integer[]를 List<Integer>로
+        List<Integer> integerList = Arrays.asList(arrlist3);
 
         //List 깊은 복사
         ArrayList<Integer> list1 = new ArrayList<>();
