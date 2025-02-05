@@ -42,8 +42,8 @@ public class Leetcode238 {
      */
     public static int[] productExceptSelfSpaceON(int[] nums) {
         int n = nums.length;
-        int pre[] = new int[n];
-        int suff[] = new int[n];
+        int[] pre = new int[n];
+        int[] suff = new int[n];
         pre[0] = 1; //왼쪽부터 차례로 곱하기
         suff[n - 1] = 1; //오른쪽부터 차례로 옮겨서 곱하기
         //한칸씩 옆으로 옮겨서 저장.
