@@ -33,12 +33,24 @@ public class BaekJoon1389_BFS {
             visited = new boolean[N+1];
             bfsFriend(i);
         }
+//        for(int i=1;i<=N;i++){
+//            for(int j=1;j<=N;j++){
+//                System.out.print(level[i][j]+" ");
+//            }
+//            System.out.println();
+//        }
+        int min = Integer.MAX_VALUE; int index=0;
         for(int i=1;i<=N;i++){
+            int num=0;
             for(int j=1;j<=N;j++){
-                System.out.print(level[i][j]+" ");
+                num+=level[i][j];
             }
-            System.out.println();
+            if(min>num){
+                index=i;
+                min=num;
+            }
         }
+        System.out.println(index);
     }
     static void bfsFriend(int i){
         Queue<Integer> queue = new LinkedList<>();
