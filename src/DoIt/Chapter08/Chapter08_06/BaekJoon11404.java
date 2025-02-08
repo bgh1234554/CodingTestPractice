@@ -14,7 +14,9 @@ public class BaekJoon11404 {
         for(int i=1;i<=N;i++){
             for(int j=1;j<=N;j++){
                 if(i==j) distance[i][j]=0;
-                else distance[i][j]=200000;
+                //처음에 20만으로 했는데, 훨씬 더 큰 숫자가 필요하다.
+                //Max(N)*Max(M)+1로 했다. 100*100000+1
+                else distance[i][j]=10000001;
             }
         }
         for(int i=0;i<M;i++){
@@ -36,7 +38,7 @@ public class BaekJoon11404 {
         }
         for(int i=1;i<=N;i++){
             for(int j=1;j<=N;j++){
-                if(distance[i][j]==200000){
+                if(distance[i][j]==10000001){
                     System.out.print("0 ");
                 }
                 else{
