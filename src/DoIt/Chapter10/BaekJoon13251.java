@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BaekJoon13251_NoCombination {
+public class BaekJoon13251 {
     public static void main(String[] args) throws IOException {
         int[] stones = new int[51];
         double[] probability = new double[51];
