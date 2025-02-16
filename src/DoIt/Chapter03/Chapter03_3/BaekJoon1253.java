@@ -21,6 +21,7 @@ public class BaekJoon1253 {
         for(int i=0;i<N;i++){
             int start=0, end=N-1, sum;
             while(start<end){
+                //자기 자신이 포함되면 안되니까, 자기 자신이면 다음으로 넘어간다.
                 if(start==i){
                     start++;
                     continue;
@@ -29,7 +30,7 @@ public class BaekJoon1253 {
                     end--;
                     continue;
                 }
-                //continue를 안넣으면 while루프의 조건문에 맞지 않는데 조건문 안의 명령을 수행할 수 있다.
+                //continue를 안넣으면 while루프의 조건문에 맞지 않는데도 조건문 안의 명령을 수행할 수 있다.
                 sum=arr[start]+arr[end];
                 if(sum==arr[i]){
                     cnt++;
