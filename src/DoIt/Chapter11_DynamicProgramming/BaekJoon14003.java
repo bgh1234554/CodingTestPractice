@@ -104,12 +104,12 @@ public class BaekJoon14003 {
 
         // LIS를 저장할 배열 생성
         int[] result = new int[length];
-        int idx = length; // 결과 배열의 인덱스
         for (int i = n; i >= 1; i--) {
             // dp 배열을 역순으로 탐색하여 LIS 복원
             if (dp[i] == length) {
-                result[--idx] = arr[i];
-                length--;
+                //길이가 인덱스가 되면 된다.
+                //뒤에서부터 저장.
+                result[--length] = arr[i];
             }
         }
 
