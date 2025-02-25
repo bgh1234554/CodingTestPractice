@@ -11,7 +11,7 @@
 나머지는 이 두 개가 어느 정도 정리된 이후에 풀이를 진행하려 한다.
 ## 목차 📌
 - [학습 방법 📝](#학습-방법-)
-  - [Neetcode 사용 가이드에서 추천하는 방법](#neetcode-사용-가이드에서-추천하는-공부-방법-)
+  - [Neetcode 사용 가이드에서 추천하는 방법 📘](#neetcode-사용-가이드에서-추천하는-공부-방법-)
 - [학습 자료 출처 📚](#학습-자료-출처-)
   - [자료 설명 📖](#자료-설명-)
 - [백준과 리트코드 난이도 비교 📊](#백준과-리트코드-난이도-비교-github-copilot의-설명-)
@@ -42,16 +42,16 @@
 5. 이전에 어려웠던 문제를 다시 풀어본다. 이 때는 풀이를 보지 않고 시도한다.
 
 ## 학습 자료 출처 📚
-| 자료명                                    | 유형        | 링크                                                      | 기간 |
-|-----------------------------------------|------------|---------------------------------------------------------|-------|
-| Do it! 알고리즘 코딩 테스트 - JAVA 편    | 도서        | [예스24](https://www.yes24.com/Product/Goods/108571508)   | **2025-01-09~진행 중** |
-| 코딩 테스트 합격자 되기 - 자바 편        | 도서        | [예스24](https://www.yes24.com/Product/Goods/125183948)   | 시작 예정 |
-| 자바 알고리즘 인터뷰 with 코틀린         | 도서        | [예스24](https://www.yes24.com/Product/Goods/122445610)   | 시작 예정 |
-| 알고리즘 로드맵 Algomap.io               | 웹사이트    | [Algomap.io](https://algomap.io/list)   | **2025-01-15~진행 중** |
-| Leetcode Patterns               | 웹사이트    | [Leetcode Patterns](https://seanprashad.com/leetcode-patterns/)   | **2025-01-18~진행 중** |
-| Leetcode Top Interview Questions         | 문제 모음   | [Leetcode](https://leetcode.com/problemset/algorithms/) | 시작 예정 |
-| Leetcode 75 | 문제 모음 | [Leetcode 75](https://leetcode.com/studyplan/leetcode-75/) | 시작 예정 |
-| Neetcode 150 | 문제 모음 | [Neetcode 150](https://neetcode.io/practice) | 시작 예정 |
+| 자료명                              | 유형    | 링크                                                              | 기간 (1회독 기준)               |
+|----------------------------------|-------|-----------------------------------------------------------------|---------------------------|
+| Do it! 알고리즘 코딩 테스트 - JAVA 편      | 도서    | [예스24](https://www.yes24.com/Product/Goods/108571508)           | **2025-01-09~2025-02-25** |
+| 코딩 테스트 합격자 되기 - 자바 편             | 도서    | [예스24](https://www.yes24.com/Product/Goods/125183948)           | 시작 예정                     |
+| 자바 알고리즘 인터뷰 with 코틀린             | 도서    | [예스24](https://www.yes24.com/Product/Goods/122445610)           | 시작 예정                     |
+| 알고리즘 로드맵 Algomap.io              | 웹사이트  | [Algomap.io](https://algomap.io/list)                           | **2025-01-15~진행 중**       |
+| Leetcode Patterns                | 웹사이트  | [Leetcode Patterns](https://seanprashad.com/leetcode-patterns/) | **2025-01-18~진행 중**       |
+| Leetcode Top Interview Questions | 문제 모음 | [Leetcode](https://leetcode.com/problemset/algorithms/)         | 시작 예정                     |
+| Leetcode 75                      | 문제 모음 | [Leetcode 75](https://leetcode.com/studyplan/leetcode-75/)      | 시작 예정                     |
+| Neetcode 150                     | 웹사이트  | [Neetcode 150](https://neetcode.io/practice)                    | 시작 예정                     |
 
 ### 자료 설명 📖
  * Do it! 알고리즘 코딩 테스트 - JAVA 편
