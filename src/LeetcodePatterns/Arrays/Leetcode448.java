@@ -1,4 +1,4 @@
-package LeetcodePatterns;
+package LeetcodePatterns.Arrays;
 
 import java.util.ArrayList;
 import java.util.List;
