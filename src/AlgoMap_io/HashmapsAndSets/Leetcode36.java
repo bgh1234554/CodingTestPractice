@@ -49,7 +49,7 @@ public class Leetcode36 {
 //        }
 //        return isValid;
 //    }
-    //HashMap으로 풀이하는 algomap.io의 방법
+    //HashSet으로 풀이하는 algomap.io의 방법
     //이제까지 Map으로 풀었지만, 오랜만에 Set을 사용한다.
     public boolean isValidSudoku(char[][] board) {
         // Validate Rows
