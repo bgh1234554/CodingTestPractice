@@ -22,6 +22,34 @@ public class BaekJoon10989_CountingSort {
         }
         System.out.print(sb);
     }
+    /*
+        계수 정렬에서 Stringbuilder을 통한 단순 출력이 아니라, 새로운 배열을 return해야하면
+        새로운 배열을 반환하려면 누적합 배열을 사용하는 것이 일반적이다.
+        누적합 배열을 사용하면 각 요소의 최종 위치를 쉽게 계산할 수 있다.
+         */
+    public static int[] countingSort(int[] arr) {
+        int max = 10000; // 배열의 최댓값
+        int[] count = new int[max + 1];
+        int[] output = new int[arr.length];
+
+        // 각 요소의 빈도 계산
+        for (int num : arr) {
+            count[num]++;
+        }
+
+        // 누적합 배열 생성
+        for (int i = 1; i <= max; i++) {
+            count[i] += count[i - 1];
+        }
+
+        // 정렬된 배열 생성
+        for (int i = arr.length - 1; i >= 0; i--) {
+            output[count[arr[i]] - 1] = arr[i];
+            count[arr[i]]--;
+        }
+
+        return output;
+    }
 }
 /*
 계수 정렬로 풀어본 문제
