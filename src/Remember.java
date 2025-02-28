@@ -98,6 +98,29 @@ public class Remember {
         intList2.add(2); intList2.add(5);
         intList2.set(0,2*intList.get(0)); //값 변경할때 이렇게 하면 됨.
 
+        //Map에 있는 모든 value를 꺼내는 방법
+        //방법 1. Iterator 사용
+        Map<String, String> map2 = new HashMap<>();
+        map2.put("key1", "value1");
+        map2.put("key2", "value2");
+        map2.put("key3", "value3");
+
+        // Iterator를 사용하여 모든 value들을 꺼내기
+        Iterator<String> iterator = map2.values().iterator();
+        while (iterator.hasNext()) {
+            String value = iterator.next();
+            System.out.println(value);
+        }
+        //방법 2. for-each문 사용
+        Map<String, String> map3 = new HashMap<>();
+        map3.put("key1", "value1");
+        map3.put("key2", "value2");
+        map3.put("key3", "value3");
+
+        for (String value : map3.values()) {
+            System.out.println(value);
+        }
+
         //밑의 줄로 옮겨가기: Ctrl Shift Enter
         //변수 이름 한번에 바꾸기: Shift F6
         //변수 이름 만들어주기: Ctrl Alt V
