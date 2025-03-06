@@ -58,3 +58,19 @@ public class Leetcode141 {
 예를 들어, 링크드 리스트의 중간 지점을 찾거나,
 두 링크드 리스트가 교차하는 지점을 찾는 문제에도 사용할 수 있다.
  */
+/*
+We can use the fast and slow pointers technique,
+which is primarily used to detect cycles in a linked list.
+We iterate through the list using two pointers.
+The slow pointer moves one step at a time, while the fast pointer moves two steps at a time.
+If the list has a cycle, these two pointers will eventually meet. Why does this work?
+
+When there is no cycle in the list, the loop ends when the fast pointer becomes null.
+If a cycle exists, the fast pointer moves faster and continuously loops through the cycle.
+With each step, it reduces the gap between itself and the slow pointer by one node.
+
+For example, if the gap is 10, the slow pointer moves by 1, increasing the gap to 11,
+while the fast pointer moves by 2, reducing the gap to 9.
+
+This process continues until the fast pointer catches up to the slow pointer, confirming a cycle.
+ */
