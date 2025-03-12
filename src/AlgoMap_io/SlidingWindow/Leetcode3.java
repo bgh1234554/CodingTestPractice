@@ -1,7 +1,9 @@
 package AlgoMap_io.SlidingWindow;
 
 import java.util.HashSet;
-
+/*
+Given a string s, find the length of the longest without duplicate characters.
+ */
 public class Leetcode3 {
     public static void main(String[] args) {
         System.out.println(lengthOfLongestSubstring("abcabcbb"));
