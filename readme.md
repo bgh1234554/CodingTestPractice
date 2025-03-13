@@ -48,10 +48,16 @@
 | 코딩 테스트 합격자 되기 - 자바 편             | 도서    | [예스24](https://www.yes24.com/Product/Goods/125183948)           | 시작 예정                     |
 | 자바 알고리즘 인터뷰 with 코틀린             | 도서    | [예스24](https://www.yes24.com/Product/Goods/122445610)           | 시작 예정                     |
 | 알고리즘 로드맵 Algomap.io              | 웹사이트  | [Algomap.io](https://algomap.io/list)                           | **2025-01-15~진행 중**       |
-| Leetcode Patterns                | 웹사이트  | [Leetcode Patterns](https://seanprashad.com/leetcode-patterns/) | **2025-01-18~진행 중**       |
-| Leetcode Top Interview Questions | 문제 모음 | [Leetcode](https://leetcode.com/problemset/algorithms/)         | 시작 예정                     |
-| Leetcode 75                      | 문제 모음 | [Leetcode 75](https://leetcode.com/studyplan/leetcode-75/)      | 시작 예정                     |
-| Neetcode 150                     | 웹사이트  | [Neetcode 150](https://neetcode.io/practice)                    | 시작 예정                     |
+| Leetcode Patterns                | 웹사이트  | [Leetcode Patterns](https://seanprashad.com/leetcode-patterns/) | 2025-01-18~진행 중           |
+| Leetcode Top Interview Questions | 문제 모음 | [Leetcode](https://leetcode.com/studyplan/top-interview-150/)   | 2025-01-15~진행 중           |
+| Leetcode 75                      | 문제 모음 | [Leetcode 75](https://leetcode.com/studyplan/leetcode-75/)      | 2025-01-15~진행 중           |
+| Leetcode Top 100 Liked           | 문제 모음 | [Leetcode](https://leetcode.com/studyplan/top-100-liked/)       | 2025-01-15~진행 중           |
+| Neetcode 150                     | 웹사이트  | [Neetcode 150](https://neetcode.io/practice)                    | 2025-01-15~진행 중           |
+
+리트 코드 기반의 자료들의 경우에는 서로 중복된 문제들이 있어, 한번에 여러 자료의 이미 풀이가 시작된 경우가 많다.
+따라서, 이 Repository에서 풀이를 찾을 때는, 깃허브에서 자체 제공하는 검색 기능에 문제 번호를 검색하여 찾는 것이 좋다.
+마지막 커밋 시간 기준, 주 리트코드 풀이 자료는 Algomap.io이며, 나머지 풀이 자료는 중복된 문제가 같이 풀린 것을
+기간의 시작으로 하고 있다. 기간 중 굵게 표시된 것은 이미 완료했거나, 주력으로 풀고 있는 풀이 자료라는 뜻이다.
 
 ### 자료 설명 📖
  * Do it! 알고리즘 코딩 테스트 - JAVA 편
