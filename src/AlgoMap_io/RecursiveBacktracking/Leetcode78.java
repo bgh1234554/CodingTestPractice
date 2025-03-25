@@ -20,6 +20,7 @@ public class Leetcode78 {
         backtrack(nums, 0);
         return res;
     }
+    //for loop를 사용하는 백트래킹 - 루프를 통해 선택하거나, 선택하지 않는 두 가지 경우를 처리.
     public void backtrack(int[] nums, int start) {
         res.add(new ArrayList<>(sol)); //현재 상태 추가
         //새롭게 추가 하기
@@ -40,6 +41,26 @@ public class Leetcode78 {
     전역 배열 Result = [] (모든 경우의 수를 가지는 리스트)
     Sol = [] (경우의 수를 저장할 임시 배열) => 베이스 케이스에 도달할 시 이전 단계로 돌아가야 한다..
      */
+    //Algomap.io의 파이썬 코드에서 구현한 방법 - 각 재귀 호출에서 원소를 선택하거나, 선택하지 않는
+    //두 가지 경우를 처리한다. 매번 자기 자신을 두번 재귀적으로 호출한다.
+    private static void backtrackcopilot(int[] nums, int start) {
+        //모든 재귀 호출이 끝난 다음에 현재 상태를 추가
+        if (start == nums.length) {
+            res.add(new ArrayList<>(sol));
+            return;
+        }
+
+        // 선택하지 않는 경우, 인덱스 넘기고 재귀적으로 호출
+        backtrackcopilot(nums, start + 1);
+
+        // 선택하는 경우 sol 리스트에 추가
+        sol.add(nums[start]);
+        //추가한 상태에서 백트래킹 시작
+        backtrackcopilot(nums, start + 1);
+        //백트래킹 탐색이 다 끝났기 때문에, 함수가 다시 리턴됐으므로, sol 배열에서 가장 최근에
+        //업데이트된 원소를 제거해야 한다.
+        sol.remove(sol.size() - 1);
+    }
 }
 /*
 Recursive Backtracking 이란?
