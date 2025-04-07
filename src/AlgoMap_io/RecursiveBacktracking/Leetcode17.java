@@ -3,6 +3,13 @@ package AlgoMap_io.RecursiveBacktracking;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+/*
+Given a string containing digits from 2-9 inclusive,
+return all possible letter combinations that the number could represent. Return the answer in any order.
+
+A mapping of digits to letters (just like on the telephone buttons) is given below.
+Note that 1 does not map to any letters.
+ */
 //HashMap에서 get연산을 하는데 자꾸 NullPointerException이 나온다.
 //key값을 집어넣을 때 charAt 메서드 호출 후 int로 형변환을 하지 않아 1차 오류
 //(int) digits.charAt(i)가 아니라 digits.charAt(i)-'0'을 해야 된다.

@@ -2,7 +2,11 @@ package AlgoMap_io.RecursiveBacktracking;
 
 import java.util.ArrayList;
 import java.util.List;
+/*
+Given two integers n and k, return all possible combinations of k numbers chosen from the range [1, n].
 
+You may return the answer in any order.
+ */
 public class Leetcode77 {
     public static void main(String[] args) {
         System.out.println(combine(1,1));
