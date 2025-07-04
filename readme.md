@@ -47,7 +47,7 @@
 | Do it! 알고리즘 코딩 테스트 - JAVA 편      | 도서    | [예스24](https://www.yes24.com/Product/Goods/108571508)           | **2025-01-09~2025-02-25** |
 | 코딩 테스트 합격자 되기 - 자바 편             | 도서    | [예스24](https://www.yes24.com/Product/Goods/125183948)           | 시작 예정                     |
 | 자바 알고리즘 인터뷰 with 코틀린             | 도서    | [예스24](https://www.yes24.com/Product/Goods/122445610)           | 시작 예정                     |
-| 알고리즘 로드맵 Algomap.io              | 웹사이트  | [Algomap.io](https://algomap.io/list)                           | **2025-01-15~진행 중**       |
+| 알고리즘 로드맵 Algomap.io              | 웹사이트  | [Algomap.io](https://algomap.io/list)                           | **2025-01-15~2025-07-04** |
 | Leetcode Patterns                | 웹사이트  | [Leetcode Patterns](https://seanprashad.com/leetcode-patterns/) | 2025-01-18~진행 중           |
 | Leetcode Top Interview Questions | 문제 모음 | [Leetcode](https://leetcode.com/studyplan/top-interview-150/)   | 2025-01-15~진행 중           |
 | Leetcode 75                      | 문제 모음 | [Leetcode 75](https://leetcode.com/studyplan/leetcode-75/)      | 2025-01-15~진행 중           |
