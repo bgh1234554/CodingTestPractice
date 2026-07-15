@@ -55,7 +55,8 @@ public class 최대공약수와최소공배수 {
         return new int[]{gcd, lcm};
     }
     public static int getGCD(int a, int b){
-        //매 바퀴마다 (a, b) 쌍을 (b, a%b)로 바꾸기. 이후 재귀적으로 반복.
+        //유클리드 호제법의 규칙
+        //-> 매 바퀴마다 (a, b) 쌍을 (b, a%b)로 바꾸기. 이후 재귀적으로 반복.
         //이 쌍은 GCD 값을 그대로 유지한 채 숫자만 작아지는 변환이라는 것을 보장함.
         while (b != 0) {
             int tmp = b;
