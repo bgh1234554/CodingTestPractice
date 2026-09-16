@@ -27,6 +27,7 @@ public class 전화번호목록 {
         System.out.println(solution(new String[]{"119", "97674223", "1195524421"}));
     }
 
+    //내가 푼 풀이
     public static boolean solution(String[] phone_book){
         Arrays.sort(phone_book); //짧은게 앞에 있어야 하니까
         HashMap<String, String> map = new HashMap<>(); //Array 대신 빨리 찾기 위해 Map으로
@@ -70,6 +71,9 @@ public class 전화번호목록 {
     }
 
     //87.5 / 100
+    //실패 원인: 짧은 번호가 나중에 등장하는 경우를 못 잡음
+    //(map에는 "지금까지 처리한" 번호만 들어있어서, 순서에 따라 접두사 관계를 놓칠 수 있음)
+    //예: ["1195524421", "119"] 순서로 들어오면 119가 접두사인 걸 못 잡아냄
     public static boolean solutionFailed(String[] phone_book){
         HashMap<String, String> map = new HashMap<>(); //Array 대신 빨리 찾기 위해 Map으로
         for(String phone : phone_book){
@@ -85,6 +89,8 @@ public class 전화번호목록 {
     }
 
     //79.2 / 100
+    //바깥 루프 안에서 list.sort()를 매번 호출 → 최악의 경우 O(n^2 log n)에 가까운 시간 소요
+    //phone_book 길이가 최대 100만이라 이 정도 복잡도는 시간제한 안에 못 들어옴
     public static boolean solutionFailed2(String[] phone_book) {
         ArrayList<String> list = new ArrayList<>();
         for(String phone : phone_book){
@@ -99,3 +105,11 @@ public class 전화번호목록 {
         return true;
     }
 }
+/*
+[이번 문제 정리]
+- 접두사 관계 검사는 "지금까지 본 것"만 기준으로 하면 순서에 따라 놓칠 수 있다
+  → 전체 데이터를 먼저 확보한 뒤(정렬 or Set) 검사해야 순서 무관하게 정확해짐
+- 정렬(Arrays.sort) vs Set(HashSet): 둘 다 정답이지만,
+  정렬은 인접 비교만 하면 되고 문자열 객체 생성이 적어 대용량(최대 100만)에서 더 유리
+- 반복문 안에서 매번 재정렬(list.sort())하면 정확해도 시간초과 날 수 있음 — 정렬은 한 번만
+*/
